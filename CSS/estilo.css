@@ -1,0 +1,37 @@
+body{
+    background-color: darkorange;/* Cor do plano de fundo */
+    color:black;
+    font-size: 17px; /*Tamanho da fonte*/
+    margin: 20px; /* Margem em relação a tela */
+    padding: 15px; /* Margem interna*/
+}/* Comentarios */
+
+header{
+    border: 3px solid #015235;
+    text-align: center;
+
+}/* Seletor do cabeçalho */
+
+li{
+    color:orangered;
+    list-style-type: none; /* Remover as bolinhas de tópicos */
+    display: inline; /* Transformar coluina em linhas */
+    border: 2px;
+    padding: 20px;
+    background-color: #000;
+}
+
+li:hover{
+    background-color: #444;
+    font-size: 30px;
+    font-family: 'Trebuchet MS'; /* Definir uma fonte */
+    border: 10px solid #888;
+}/*Modifica o conteudo original da Tag */
+#paginaInicial{
+    color: tomato;
+}
+
+aside{
+    background-image: url("../Imagens/naruto-background.jpg");
+    background-repeat: no-repeat;
+}
